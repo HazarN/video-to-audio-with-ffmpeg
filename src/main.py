@@ -28,3 +28,10 @@ def convert_to_mp3(input_file, output_file):
 for i, file_name in enumerate(os.listdir('../assets')):
     print(file_name)
     convert_to_mp3(f'../assets/{file_name}', f'../outputs/{i}.mp3')
+
+print(
+"""
+********************************************
+    All files converted successfully!
+********************************************
+""")
